@@ -3,8 +3,14 @@ import 'package:flutter/material.dart';
 void main() {
   runApp(MiCardApp());
 }
+class MiCardApp extends StatefulWidget {
+  const MiCardApp({super.key});
 
-class MiCardApp extends StatelessWidget {
+  @override
+  State<MiCardApp> createState() => _MiCardAppState();
+}
+
+class _MiCardAppState extends State<MiCardApp> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
